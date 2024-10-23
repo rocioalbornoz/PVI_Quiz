@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<img src="Sellos fotos2 (2).png" alt="Bachillerato Incia UC" width="400">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Vocacional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Descubre tu Campo de Estudio</h1>
+        <form id="careerForm">
+            <div class="question">
+                <h2>¿Con qué?</h2>
+                <select id="objectType" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="hechos">Hechos</option>
+                    <option value="personas">Personas</option>
+                    <option value="datos">Datos</option>
+                    <option value="fenómenos">Fenómenos</option>
+                    <option value="objetos">Objetos</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <h2>¿En qué?</h2>
+                <select id="taskType" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="defender">Defender</option>
+                    <option value="representar">Representar</option>
+                    <option value="exponer">Exponer</option>
+                    <option value="enseñar">Enseñar</option>
+                    <option value="asesorar">Asesorar</option>
+                    <option value="diagnosticar">Diagnosticar</option>
+                    <option value="cuidar">Cuidar</option>
+                    <option value="comunicar">Comunicar</option>
+                    <option value="viajar">Viajar</option>
+                    <option value="reflexionar">Reflexionar</option>
+                    <option value="informar">Informar</option>
+                    <option value="escribir">Escribir</option>
+                    <option value="curar">Curar</option>
+                    <option value="intervenir">Intervenir</option>
+                    <option value="prevenir">Prevenir</option>
+                    <option value="investigar">Investigar</option>
+                    <option value="observar">Observar</option>
+                    <option value="analizar">Analizar</option>
+                    <option value="sintetizar">Sintetizar</option>
+                    <option value="teorizar">Teorizar</option>
+                    <option value="calcular">Calcular</option>
+                    <option value="deducir">Deducir</option>
+                    <option value="cultivar">Cultivar</option>
+                    <option value="cosechar">Cosechar</option>
+                    <option value="administrar">Administrar</option>
+                    <option value="organizar">Organizar</option>
+                    <option value="dirigir">Dirigir</option>
+                    <option value="planificar">Planificar</option>
+                    <option value="actuar">Actuar</option>
+                    <option value="diseñar">Diseñar</option>
+                    <option value="crear">Crear</option>
+                    <option value="proyectar">Proyectar</option>
+                    <option value="componer">Componer</option>
+                    <option value="construir">Construir</option>
+                    <option value="arreglar">Arreglar</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <h2>¿Dónde?</h2>
+                <select id="fieldType" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="estudios">Estudios</option>
+                    <option value="juzgados">Juzgados</option>
+                    <option value="cortes">Cortes</option>
+                    <option value="escuelas">Escuelas</option>
+                    <option value="equipos de orientación escolar">Equipos de orientación escolar</option>
+                    <option value="consultorios">Consultorios</option>
+                    <option value="hospitales">Hospitales</option>
+                    <option value="radios">Radios</option>
+                    <option value="aeropuertos">Aeropuertos</option>
+                    <option value="centros de investigación">Centros de investigación</option>
+                    <option value="periódicos">Periódicos</option>
+                    <option value="centros de idiomas">Centros de idiomas</option>
+                    <option value="clínicas">Clínicas</option>
+                    <option value="laboratorios">Laboratorios</option>
+                    <option value="investigación">Investigación</option>
+                    <option value="servicio meteorológico">Servicio meteorológico</option>
+                    <option value="campo">Campo</option>
+                    <option value="granja">Granja</option>
+                    <option value="oficinas">Oficinas</option>
+                    <option value="empresas">Empresas</option>
+                    <option value="teatro">Teatro</option>
+                    <option value="cine">Cine</option>
+                    <option value="ateliers">Ateliers</option>
+                    <option value="televisión">Televisión</option>
+                    <option value="agencias publicitarias">Agencias publicitarias</option>
+                    <option value="conservatorios">Conservatorios</option>
+                    <option value="fábricas">Fábricas</option>
+                    <option value="servicios">Servicios</option>
+                </select>
+            </div>
+
+            <button type="button" id="submitButton">Descubrir</button>
+        </form>
+
+        <div id="result" class="result">
+            <!-- El resultado aparecerá aquí -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
